@@ -13,7 +13,6 @@ public class Menu : MonoBehaviour
         action.action.Enable();
         action.action.performed += (ctx) =>
         {
-            Time.timeScale = 0f; // not recommended to do this because i think this pauses headtracking too
             canvas.enabled = true;
         };
 
@@ -28,7 +27,6 @@ public class Menu : MonoBehaviour
 
     void resume()
     {
-        Time.timeScale = 1f;
         canvas.enabled = false;
     }
 }
