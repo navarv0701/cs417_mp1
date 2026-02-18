@@ -31,6 +31,10 @@ extern void U3CU3Ec__cctor_m30BBCCA08360728317739E46D196255FA072F28E (void);
 extern void U3CU3Ec__ctor_mE194CFEDCF972E2B90ADB13465F0FF288715508D (void);
 extern void U3CU3Ec_U3CSmoothNormalsU3Eb__30_0_m505FC74F9B4AC168013E5DD5BA78003EF5C0352B (void);
 extern void U3CU3Ec_U3CSmoothNormalsU3Eb__30_1_m3B53A1B0677BDAA95C75BB73B1BEA77438D26493 (void);
+extern void AnimationController_Start_mC2E6E251390BCB44555D1877E2866D31B49B1E06 (void);
+extern void AnimationController_stopAnimator_mAB1CF8C70F48B5296878BB72C847A157F0979F4A (void);
+extern void AnimationController_startAnimator_mF23345317BA7A459617F6271CAF7710314966EF5 (void);
+extern void AnimationController__ctor_m31F56E37E82CAE59A12197D577F7F8257A5FA984 (void);
 extern void Collectible_Awake_m309668915FFD4B8E9CA01B98D003CA0AFF80D74D (void);
 extern void Collectible_OnEnable_m0AD5BB4DAFC3276C53FAFEB4D7FC4E61F26B6E47 (void);
 extern void Collectible_OnDisable_m515FD6BBDC83DBF7BB3038B50E6278A17147D3C9 (void);
@@ -372,7 +376,7 @@ extern void SlidingDoor_ToggleDoor_mEAAB8109BB52362EC678E90657A517B69B53431F (vo
 extern void SlidingDoor_OpenDoor_m5849BA28262521B5854AEEF0DCED0B1EC4A6BBD2 (void);
 extern void SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077 (void);
 extern void SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6 (void);
-static Il2CppMethodPointer s_methodPointers[365] = 
+static Il2CppMethodPointer s_methodPointers[369] = 
 {
 	Outline_get_OutlineMode_m407E90C88C66DA2B6155740D4FB9142C355A491B,
 	Outline_set_OutlineMode_m82C5D0413E7460037A2A2BF8FB60B84C9AC17C06,
@@ -398,6 +402,10 @@ static Il2CppMethodPointer s_methodPointers[365] =
 	U3CU3Ec__ctor_mE194CFEDCF972E2B90ADB13465F0FF288715508D,
 	U3CU3Ec_U3CSmoothNormalsU3Eb__30_0_m505FC74F9B4AC168013E5DD5BA78003EF5C0352B,
 	U3CU3Ec_U3CSmoothNormalsU3Eb__30_1_m3B53A1B0677BDAA95C75BB73B1BEA77438D26493,
+	AnimationController_Start_mC2E6E251390BCB44555D1877E2866D31B49B1E06,
+	AnimationController_stopAnimator_mAB1CF8C70F48B5296878BB72C847A157F0979F4A,
+	AnimationController_startAnimator_mF23345317BA7A459617F6271CAF7710314966EF5,
+	AnimationController__ctor_m31F56E37E82CAE59A12197D577F7F8257A5FA984,
 	Collectible_Awake_m309668915FFD4B8E9CA01B98D003CA0AFF80D74D,
 	Collectible_OnEnable_m0AD5BB4DAFC3276C53FAFEB4D7FC4E61F26B6E47,
 	Collectible_OnDisable_m515FD6BBDC83DBF7BB3038B50E6278A17147D3C9,
@@ -740,7 +748,7 @@ static Il2CppMethodPointer s_methodPointers[365] =
 	SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077,
 	SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6,
 };
-static const int32_t s_InvokerIndices[365] = 
+static const int32_t s_InvokerIndices[369] = 
 {
 	14992,
 	11519,
@@ -766,6 +774,10 @@ static const int32_t s_InvokerIndices[365] =
 	15274,
 	2778,
 	10288,
+	15274,
+	15274,
+	15274,
+	15274,
 	15274,
 	15274,
 	15274,
@@ -1112,7 +1124,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	365,
+	369,
 	s_methodPointers,
 	0,
 	NULL,

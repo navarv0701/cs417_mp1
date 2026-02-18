@@ -7503,7 +7503,7 @@ inline EqualityComparer_1_t8576A23859AAB111A218EAE239E10E5E9E2D66FC* EqualityCom
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78556
+// Method Definition Index: 78560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_tC29B0FCB8ECB7874946A39FA2CD2BFDB3C6E8C00* IdentityFunction_1_get_Instance_mA9F84BD6519926D9327D49ECD42089D13188366E_gshared (const RuntimeMethod* method) 
 {
 	Func_2_tC29B0FCB8ECB7874946A39FA2CD2BFDB3C6E8C00* G_B2_0 = NULL;
@@ -7543,7 +7543,7 @@ IL_001f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78556
+// Method Definition Index: 78560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* IdentityFunction_1_get_Instance_m58AEB73110E3EBB09FCD0F34C027D72BEEF11A1B_gshared (const RuntimeMethod* method) 
 {
 	Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* G_B2_0 = NULL;
