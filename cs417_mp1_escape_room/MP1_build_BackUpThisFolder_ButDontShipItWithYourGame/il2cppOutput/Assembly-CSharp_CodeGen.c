@@ -46,6 +46,16 @@ extern void OutlineSelection_Awake_m6C1BA717F9D710E12CE57EE54C52B8A7AD45E98F (vo
 extern void OutlineSelection_OnHoverEnter_m49E447571F3C9427DE66CAFE7FC1550FF1D60A80 (void);
 extern void OutlineSelection_OnHoverExit_m4ECFFF39455B2D291E2267C0847732A26463953A (void);
 extern void OutlineSelection__ctor_m661E47531E76E526485D7D7B78905B49F34FA7FB (void);
+extern void VRAssistedCrawlController_Awake_m819ABECA269FA19AB54E178CCCA10E407CDE863B (void);
+extern void VRAssistedCrawlController_Update_mE2D68FEE703E63F85FB9ACAF6B25912C390325D2 (void);
+extern void VRAssistedCrawlController_HandleCrawlState_m6B35D1E58B90833A5B49084257D342E006FBD012 (void);
+extern void VRAssistedCrawlController_SetStanding_m508F787D0EA4C968BE2E871DC4CEEBD3D0B81098 (void);
+extern void VRAssistedCrawlController_SmoothHeightAdjust_m76936E02811B1DFC4D68F7246226593BC60C547E (void);
+extern void VRAssistedCrawlController_CanStand_m66DE1CD38FC9DD329531889DB2ED0A0A81DEFB19 (void);
+extern void VRAssistedCrawlController_Move_m5559B98D325741877C8B69F46E51170AB0366063 (void);
+extern void VRAssistedCrawlController_OnTriggerEnter_mBAC048729C14E4ABA1B8194085157A48FAE89632 (void);
+extern void VRAssistedCrawlController_OnTriggerExit_m850C2AB30A45F9243F579B9BD2EF94F799E5D8C4 (void);
+extern void VRAssistedCrawlController__ctor_m1F9016C33193913F081CA3994C9BDD02E5291A75 (void);
 extern void SceneLoader_Start_mB9AA9E8ADCE59F893E3EF8E891ED5E1F3AB80DA0 (void);
 extern void SceneLoader_LoadScene_mC16E50A1DFC02AD725FCD761CE14DE4A59020CEF (void);
 extern void SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29 (void);
@@ -362,7 +372,7 @@ extern void SlidingDoor_ToggleDoor_mEAAB8109BB52362EC678E90657A517B69B53431F (vo
 extern void SlidingDoor_OpenDoor_m5849BA28262521B5854AEEF0DCED0B1EC4A6BBD2 (void);
 extern void SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077 (void);
 extern void SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6 (void);
-static Il2CppMethodPointer s_methodPointers[355] = 
+static Il2CppMethodPointer s_methodPointers[365] = 
 {
 	Outline_get_OutlineMode_m407E90C88C66DA2B6155740D4FB9142C355A491B,
 	Outline_set_OutlineMode_m82C5D0413E7460037A2A2BF8FB60B84C9AC17C06,
@@ -403,6 +413,16 @@ static Il2CppMethodPointer s_methodPointers[355] =
 	OutlineSelection_OnHoverEnter_m49E447571F3C9427DE66CAFE7FC1550FF1D60A80,
 	OutlineSelection_OnHoverExit_m4ECFFF39455B2D291E2267C0847732A26463953A,
 	OutlineSelection__ctor_m661E47531E76E526485D7D7B78905B49F34FA7FB,
+	VRAssistedCrawlController_Awake_m819ABECA269FA19AB54E178CCCA10E407CDE863B,
+	VRAssistedCrawlController_Update_mE2D68FEE703E63F85FB9ACAF6B25912C390325D2,
+	VRAssistedCrawlController_HandleCrawlState_m6B35D1E58B90833A5B49084257D342E006FBD012,
+	VRAssistedCrawlController_SetStanding_m508F787D0EA4C968BE2E871DC4CEEBD3D0B81098,
+	VRAssistedCrawlController_SmoothHeightAdjust_m76936E02811B1DFC4D68F7246226593BC60C547E,
+	VRAssistedCrawlController_CanStand_m66DE1CD38FC9DD329531889DB2ED0A0A81DEFB19,
+	VRAssistedCrawlController_Move_m5559B98D325741877C8B69F46E51170AB0366063,
+	VRAssistedCrawlController_OnTriggerEnter_mBAC048729C14E4ABA1B8194085157A48FAE89632,
+	VRAssistedCrawlController_OnTriggerExit_m850C2AB30A45F9243F579B9BD2EF94F799E5D8C4,
+	VRAssistedCrawlController__ctor_m1F9016C33193913F081CA3994C9BDD02E5291A75,
 	SceneLoader_Start_mB9AA9E8ADCE59F893E3EF8E891ED5E1F3AB80DA0,
 	SceneLoader_LoadScene_mC16E50A1DFC02AD725FCD761CE14DE4A59020CEF,
 	SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29,
@@ -720,7 +740,7 @@ static Il2CppMethodPointer s_methodPointers[355] =
 	SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077,
 	SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6,
 };
-static const int32_t s_InvokerIndices[355] = 
+static const int32_t s_InvokerIndices[365] = 
 {
 	14992,
 	11519,
@@ -758,6 +778,16 @@ static const int32_t s_InvokerIndices[355] =
 	15274,
 	11944,
 	15274,
+	11587,
+	11587,
+	15274,
+	15274,
+	15274,
+	15274,
+	15274,
+	15274,
+	14859,
+	11775,
 	11587,
 	11587,
 	15274,
@@ -1082,7 +1112,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	355,
+	365,
 	s_methodPointers,
 	0,
 	NULL,
