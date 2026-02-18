@@ -80,7 +80,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Vault.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -101,13 +103,17 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/Vault.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioSource",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Vault.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -982,7 +988,9 @@
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Vault.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1425,7 +1433,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Starter Screen.unity"
+              "Assets/Scenes/Starter Screen.unity",
+              "Assets/Scenes/Vault.unity"
             ],
             "dependencyType": 0,
             "icon": null
