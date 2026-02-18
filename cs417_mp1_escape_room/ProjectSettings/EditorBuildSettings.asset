@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Vault.unity
     guid: d1c1e93516fdb4a9cb0b88cc11b61b11
+  - enabled: 1
+    path: Assets/Scenes/Winning Scene.unity
+    guid: 98fe6b35279c84972bceda3dc8a1aa26
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d179c45b1338ce34d964f9d18f8588c8, type: 2}

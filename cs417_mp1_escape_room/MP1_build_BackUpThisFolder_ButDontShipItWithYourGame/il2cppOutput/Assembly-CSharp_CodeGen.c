@@ -50,6 +50,11 @@ extern void OutlineSelection_Awake_m6C1BA717F9D710E12CE57EE54C52B8A7AD45E98F (vo
 extern void OutlineSelection_OnHoverEnter_m49E447571F3C9427DE66CAFE7FC1550FF1D60A80 (void);
 extern void OutlineSelection_OnHoverExit_m4ECFFF39455B2D291E2267C0847732A26463953A (void);
 extern void OutlineSelection__ctor_m661E47531E76E526485D7D7B78905B49F34FA7FB (void);
+extern void PhysicalButton_Start_m09329F6245A50C9367E17D967967EBEB2B42F8BD (void);
+extern void PhysicalButton_OnHoverEnter_m401F7F51F14B4EC897A546CA6A94FA2A3ADF59F3 (void);
+extern void PhysicalButton_OnHoverExit_m94D6F8D173756AD9B3C47344935FEA14CA9ED3E8 (void);
+extern void PhysicalButton_pressButton_m6D47F62E0FBC1742B4DAD65CBF7F1BE280244429 (void);
+extern void PhysicalButton__ctor_mFBC5142488A775C5E8740447FFCE65094714C489 (void);
 extern void VRAssistedCrawlController_Awake_m819ABECA269FA19AB54E178CCCA10E407CDE863B (void);
 extern void VRAssistedCrawlController_Update_mE2D68FEE703E63F85FB9ACAF6B25912C390325D2 (void);
 extern void VRAssistedCrawlController_HandleCrawlState_m6B35D1E58B90833A5B49084257D342E006FBD012 (void);
@@ -74,6 +79,8 @@ extern void VaultDoorAniController_close_mBCEA07DFFC722DE3D1CD703B29066EA62222A9
 extern void VaultDoorAniController__ctor_mF67970F68A9666290A76651F5656F8D959D61FEE (void);
 extern void VaultDoorClose_OnTriggerEnter_m6AC110FC495603C929B34F8972B9B6D48ABE1AF2 (void);
 extern void VaultDoorClose__ctor_m4241F8252DB5BB4E6BF63010748B222A2CD2217F (void);
+extern void Win_OnTriggerEnter_m51AF85EE38D509CCFAE2CC20032B10603B47CC21 (void);
+extern void Win__ctor_m8342BB40ABD734514BA77A58FF457E0E1D83C278 (void);
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
 extern void ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46 (void);
 extern void ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722 (void);
@@ -376,7 +383,7 @@ extern void SlidingDoor_ToggleDoor_mEAAB8109BB52362EC678E90657A517B69B53431F (vo
 extern void SlidingDoor_OpenDoor_m5849BA28262521B5854AEEF0DCED0B1EC4A6BBD2 (void);
 extern void SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077 (void);
 extern void SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6 (void);
-static Il2CppMethodPointer s_methodPointers[369] = 
+static Il2CppMethodPointer s_methodPointers[376] = 
 {
 	Outline_get_OutlineMode_m407E90C88C66DA2B6155740D4FB9142C355A491B,
 	Outline_set_OutlineMode_m82C5D0413E7460037A2A2BF8FB60B84C9AC17C06,
@@ -421,6 +428,11 @@ static Il2CppMethodPointer s_methodPointers[369] =
 	OutlineSelection_OnHoverEnter_m49E447571F3C9427DE66CAFE7FC1550FF1D60A80,
 	OutlineSelection_OnHoverExit_m4ECFFF39455B2D291E2267C0847732A26463953A,
 	OutlineSelection__ctor_m661E47531E76E526485D7D7B78905B49F34FA7FB,
+	PhysicalButton_Start_m09329F6245A50C9367E17D967967EBEB2B42F8BD,
+	PhysicalButton_OnHoverEnter_m401F7F51F14B4EC897A546CA6A94FA2A3ADF59F3,
+	PhysicalButton_OnHoverExit_m94D6F8D173756AD9B3C47344935FEA14CA9ED3E8,
+	PhysicalButton_pressButton_m6D47F62E0FBC1742B4DAD65CBF7F1BE280244429,
+	PhysicalButton__ctor_mFBC5142488A775C5E8740447FFCE65094714C489,
 	VRAssistedCrawlController_Awake_m819ABECA269FA19AB54E178CCCA10E407CDE863B,
 	VRAssistedCrawlController_Update_mE2D68FEE703E63F85FB9ACAF6B25912C390325D2,
 	VRAssistedCrawlController_HandleCrawlState_m6B35D1E58B90833A5B49084257D342E006FBD012,
@@ -445,6 +457,8 @@ static Il2CppMethodPointer s_methodPointers[369] =
 	VaultDoorAniController__ctor_mF67970F68A9666290A76651F5656F8D959D61FEE,
 	VaultDoorClose_OnTriggerEnter_m6AC110FC495603C929B34F8972B9B6D48ABE1AF2,
 	VaultDoorClose__ctor_m4241F8252DB5BB4E6BF63010748B222A2CD2217F,
+	Win_OnTriggerEnter_m51AF85EE38D509CCFAE2CC20032B10603B47CC21,
+	Win__ctor_m8342BB40ABD734514BA77A58FF457E0E1D83C278,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
 	ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46,
 	ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722,
@@ -748,7 +762,7 @@ static Il2CppMethodPointer s_methodPointers[369] =
 	SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077,
 	SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6,
 };
-static const int32_t s_InvokerIndices[369] = 
+static const int32_t s_InvokerIndices[376] = 
 {
 	14992,
 	11519,
@@ -794,6 +808,11 @@ static const int32_t s_InvokerIndices[369] =
 	11587,
 	15274,
 	15274,
+	11587,
+	11587,
+	11587,
+	15274,
+	15274,
 	15274,
 	15274,
 	15274,
@@ -814,6 +833,8 @@ static const int32_t s_InvokerIndices[369] =
 	15274,
 	15274,
 	15274,
+	15274,
+	11587,
 	15274,
 	11587,
 	15274,
@@ -1124,7 +1145,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	369,
+	376,
 	s_methodPointers,
 	0,
 	NULL,
