@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerText;
@@ -13,5 +14,9 @@ public class Timer : MonoBehaviour
         int minutes = Mathf.FloorToInt(timeLeft / 60);
         int seconds = Mathf.FloorToInt(timeLeft % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        if (timeLeft <= 0 )
+        {
+            SceneManager.LoadScene("Lose");
+        }
     }
 }

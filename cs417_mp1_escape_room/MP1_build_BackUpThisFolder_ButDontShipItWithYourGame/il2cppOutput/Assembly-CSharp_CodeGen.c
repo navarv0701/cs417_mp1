@@ -40,6 +40,8 @@ extern void Collectible_OnEnable_m0AD5BB4DAFC3276C53FAFEB4D7FC4E61F26B6E47 (void
 extern void Collectible_OnDisable_m515FD6BBDC83DBF7BB3038B50E6278A17147D3C9 (void);
 extern void Collectible_OnGrabbed_mB5217771A46F47642508D6AD43D10F60AB29143B (void);
 extern void Collectible__ctor_mD2FAE521B61DCEEA10D4B227E5F2F3467260F950 (void);
+extern void Lose_OnTriggerEnter_mE17A56A26EBC32B6BEB156B3F4B3095F554B6AD1 (void);
+extern void Lose__ctor_m619B25E55A4F48D9C24CEDE1740CFC599B5660D6 (void);
 extern void Menu_Start_mC49986718939F87924A1391044721CAC6E28919D (void);
 extern void Menu_resume_mD557CE86D37598C395E2C04E0463DCAC99F8BF12 (void);
 extern void Menu_quit_m6E50133B19BF0352D9C12B1B9C4B33DAD5A4DBD4 (void);
@@ -383,7 +385,7 @@ extern void SlidingDoor_ToggleDoor_mEAAB8109BB52362EC678E90657A517B69B53431F (vo
 extern void SlidingDoor_OpenDoor_m5849BA28262521B5854AEEF0DCED0B1EC4A6BBD2 (void);
 extern void SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077 (void);
 extern void SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6 (void);
-static Il2CppMethodPointer s_methodPointers[376] = 
+static Il2CppMethodPointer s_methodPointers[378] = 
 {
 	Outline_get_OutlineMode_m407E90C88C66DA2B6155740D4FB9142C355A491B,
 	Outline_set_OutlineMode_m82C5D0413E7460037A2A2BF8FB60B84C9AC17C06,
@@ -418,6 +420,8 @@ static Il2CppMethodPointer s_methodPointers[376] =
 	Collectible_OnDisable_m515FD6BBDC83DBF7BB3038B50E6278A17147D3C9,
 	Collectible_OnGrabbed_mB5217771A46F47642508D6AD43D10F60AB29143B,
 	Collectible__ctor_mD2FAE521B61DCEEA10D4B227E5F2F3467260F950,
+	Lose_OnTriggerEnter_mE17A56A26EBC32B6BEB156B3F4B3095F554B6AD1,
+	Lose__ctor_m619B25E55A4F48D9C24CEDE1740CFC599B5660D6,
 	Menu_Start_mC49986718939F87924A1391044721CAC6E28919D,
 	Menu_resume_mD557CE86D37598C395E2C04E0463DCAC99F8BF12,
 	Menu_quit_m6E50133B19BF0352D9C12B1B9C4B33DAD5A4DBD4,
@@ -762,7 +766,7 @@ static Il2CppMethodPointer s_methodPointers[376] =
 	SlidingDoor_CloseDoor_mDA6AAD20680082B2E4CB817C19D9B993E2A61077,
 	SlidingDoor__ctor_m25A036046F62DEAF4F0D8D6B2A2EC9FDF3FFFAD6,
 };
-static const int32_t s_InvokerIndices[376] = 
+static const int32_t s_InvokerIndices[378] = 
 {
 	14992,
 	11519,
@@ -794,6 +798,8 @@ static const int32_t s_InvokerIndices[376] =
 	15274,
 	15274,
 	15274,
+	15274,
+	11587,
 	15274,
 	11587,
 	15274,
@@ -1145,7 +1151,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	376,
+	378,
 	s_methodPointers,
 	0,
 	NULL,
